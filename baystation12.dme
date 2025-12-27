@@ -3194,6 +3194,7 @@
 #include "code\modules\spells\construct_spells.dm"
 #include "code\modules\spells\contracts.dm"
 #include "code\modules\spells\no_clothes.dm"
+#include "code\modules\spells\prayers.dm"
 #include "code\modules\spells\racial_wizard.dm"
 #include "code\modules\spells\spell_code.dm"
 #include "code\modules\spells\spell_projectile.dm"
