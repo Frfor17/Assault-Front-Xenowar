@@ -184,7 +184,7 @@
 	var/turf/listed_turf = null  	//the current turf being examined in the stat panel
 	var/list/shouldnt_see = list()	//list of objects that this mob shouldn't see in the stat panel. this silliness is needed because of AI alt+click and cult blood runes
 
-	var/mob_size = MOB_MEDIUM
+	var/mob_size = MOB_MEDIUM // if someone understand what that var is doing, please write here
 
 	var/paralysis = 0
 	var/stunned = 0
