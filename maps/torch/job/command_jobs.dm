@@ -1,5 +1,5 @@
 /datum/job/captain
-	title = "Shtab Commander"
+	title = "Shtab Divizion Commander"
 	supervisors = "the Shtab of Minister of Defence"
 	minimal_player_age = 14
 	economic_power = 16
@@ -7,10 +7,10 @@
 	ideal_character_age = 50
 	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/command/CO
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps
+		/datum/mil_branch/voenno_morskoy_fleet
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/ec/o6
+		/datum/mil_rank/voenno_morskoy_fleet/o7
 	)
 	skill_points = 36
 	min_skill = list( // 9 points

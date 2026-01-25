@@ -111,6 +111,55 @@
  *  ========
  */
 
+/datum/mil_branch/voenno_morskoy_fleet
+	name = "Voenno Morskoy Fleet"
+	name_short = "VMF"
+	email_domain = "vmf.mil.ru"
+
+	rank_types = list(
+		// /datum/mil_rank/voenno_morskoy_fleet/e1,
+		// /datum/mil_rank/voenno_morskoy_fleet/e2,
+		// /datum/mil_rank/voenno_morskoy_fleet/e3,
+		// /datum/mil_rank/voenno_morskoy_fleet/e4,
+		// /datum/mil_rank/voenno_morskoy_fleet/e5,
+		// /datum/mil_rank/voenno_morskoy_fleet/e6,
+		// /datum/mil_rank/voenno_morskoy_fleet/e7,
+		// /datum/mil_rank/voenno_morskoy_fleet/e8,
+		// /datum/mil_rank/voenno_morskoy_fleet/e9,
+		// /datum/mil_rank/voenno_morskoy_fleet/e9_alt1,
+		// /datum/mil_rank/voenno_morskoy_fleet/e9_alt2,
+		// /datum/mil_rank/voenno_morskoy_fleet/e9_alt3,
+		// /datum/mil_rank/voenno_morskoy_fleet/e9_alt4,
+		// /datum/mil_rank/voenno_morskoy_fleet/o1,
+		// /datum/mil_rank/voenno_morskoy_fleet/o2,
+		// /datum/mil_rank/voenno_morskoy_fleet/o3,
+		// /datum/mil_rank/voenno_morskoy_fleet/o4,
+		// /datum/mil_rank/voenno_morskoy_fleet/o5,
+		// /datum/mil_rank/voenno_morskoy_fleet/o6,
+		/datum/mil_rank/voenno_morskoy_fleet/o7,
+		// /datum/mil_rank/voenno_morskoy_fleet/o8,
+		// /datum/mil_rank/voenno_morskoy_fleet/o9,
+		// /datum/mil_rank/voenno_morskoy_fleet/o10,
+		// /datum/mil_rank/voenno_morskoy_fleet/o10_alt
+	)
+
+	spawn_rank_types = list(
+		// /datum/mil_rank/voenno_morskoy_fleet/e2,
+		// /datum/mil_rank/voenno_morskoy_fleet/e3,
+		// /datum/mil_rank/voenno_morskoy_fleet/e4,
+		// /datum/mil_rank/voenno_morskoy_fleet/e5,
+		// /datum/mil_rank/voenno_morskoy_fleet/e6,
+		// /datum/mil_rank/voenno_morskoy_fleet/e7,
+		// /datum/mil_rank/voenno_morskoy_fleet/e8,
+		// /datum/mil_rank/voenno_morskoy_fleet/e9,
+		// /datum/mil_rank/voenno_morskoy_fleet/e9_alt1,
+		// /datum/mil_rank/voenno_morskoy_fleet/o1,
+		// /datum/mil_rank/voenno_morskoy_fleet/o2,
+		// /datum/mil_rank/voenno_morskoy_fleet/o3,
+		// /datum/mil_rank/voenno_morskoy_fleet/o4,
+		// /datum/mil_rank/voenno_morskoy_fleet/o5
+	)
+
 /datum/mil_branch/expeditionary_corps
 	name = "Expeditionary Corps"
 	name_short = "SCGEC"
@@ -263,6 +312,17 @@
 /singleton/rank_category/commissioned
 	name = "Commissioned"
 	add_accesses = list(access_o_mess)
+
+/*
+ *  Voenno Morskoy Fleet
+ *  =====
+ */
+
+/datum/mil_rank/voenno_morskoy_fleet/o7
+	name = "Captain First Rank"
+	name_short = "Kap. 1 r."
+	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted, /obj/item/clothing/accessory/solgov/specialty/enlisted)
+	sort_order = 10
 
 /*
  *  Fleet
