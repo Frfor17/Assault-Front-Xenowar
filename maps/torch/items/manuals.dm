@@ -77,35 +77,39 @@
 /obj/item/material/folder/envelope/preset/captain/LateInitialize(mapload)
 	var/obj/overmap/visitable/torch = map_sectors["[z]"]
 	var/memo = {"
-	<tt><center><b>[SPAN_COLOR("red", "SECRET - CODE WORDS: TORCH")]</b>
-	<h3>SOL CENTRAL GOVERNMENT EXPEDITIONARY COMMAND</h3>
-	<img src = sollogo.png>
-	</center>
-	<b>FROM:</b> ADM William Lau<br>
-	<b>TO:</b> Commanding Officer of SEV Torch<br>
-	<b>SUBJECT:</b> Standing Orders<br>
-	<hr>
-	Captain.<br>
-	Your orders are to visit the following star systems. Keep in mind that your supplies are limited; ration exploration time accordingly.
-	<li>[generate_system_name()]</li>
-	<li>[generate_system_name()]</li>
-	<li>[generate_system_name()]</li>
-	<li>[generate_system_name()]</li>
-	<li>[generate_system_name()]</li>
-	<li>[GLOB.using_map.system_name]</li>
-	<li>[generate_system_name()]</li>
-	<li>[generate_system_name()]</li>
-	<li>[generate_system_name()]</li>
-	<br>
-	Priority targets are artifacts of uncontacted alien species and signal sources of unknown origin.<br>
-	None of these systems are claimed by any entity recognized by the SCG, so you have full salvage rights on any derelicts discovered.<br>
-	Investigate and mark any prospective colony worlds as per usual procedures.<br>
-	There is no SCG presence in that area. In case of distress calls, you will be the only vessel available; do not ignore them. We cannot afford any more PR backlash.<br>
-	The current docking code is: [torch.docking_codes]<br>
-	Report all findings via bluespace comm buoys during inter-system jumps.<br>
+<tt><center><b>[SPAN_COLOR("red", "SECRET - CODE WORDS: SHATAB")]</b>
+<h3>RUSSIAN NAVY DIVISION COMMAND</h3>
+</center>
+<b>FROM:</b> Admiral Sergey Volkov<br>
+<b>TO:</b> Shtab Divizion Commander of flagship "KREPOST"<br>
+<b>SUBJECT:</b> Combat Order #[rand(1000,9999)]<br>
+<hr>
+Captain 1st Rank.<br>
 
-	<i>ADM Lau.</i></tt>
-	<i>This paper has been stamped with the stamp of SCG Expeditionary Command.</i>
+Your division group is tasked with conducting a special operation in sector [generate_system_name()].
+
+<i>DIVISION COMPOSITION:</i><br>
+<li><b>Flagship "KREPOST"</b> — assault command center (you)</li>
+<li><b>"OGNEVOY UDAR"</b> — fire support ship</li>
+<li><b>"SNABZHENIE-01"</b> — logistics and rear support</li>
+
+<b>ORDERS:</b><br>
+1. Landing of marine assault on planet [generate_system_name()]<br>
+2. Suppression of enemy fire points by "Ognevoy Udar"<br>
+3. Supply assault with ammunition and fuel<br>
+4. Capture key enemy objects<br>
+
+<i>PRIORITY TARGETS:</i><br>
+• Destruction of enemy assault forces<br>
+• Capture artifacts of unknown origin<br>
+• Reconnaissance of extraterrestrial signals<br>
+
+In case of distress signal — provide assistance at any cost.<br>
+Docking code: [torch.docking_codes]<br>
+Report via secure channel every 2 hours.<br>
+
+<i>Admiral Volkov, Russian Navy Commander.</i></tt>
+<i>Stamp: Division Command Russian Navy.</i>
 	"}
 	new/obj/item/paper(src, memo, "Standing Orders")
 	new/obj/item/paper/umbra(src)
@@ -121,24 +125,26 @@
 /obj/item/paper/umbra
 	name = "UMBRA Protocol"
 	info = {"
-	<tt><center><b><span style='color: red'>TOP SECRET - CODE WORDS: TORCH UMBRA</span></b>
-	<h3>OFFICE OF THE SECRETARY GENERAL OF SOL CENTRAL GOVERNMENT</h3>
-	<img src = sollogo.png>
-	</center>
-	<b>FROM:</b> Johnathan Smitherson, Special Aide of the Secretary General<br>
-	<b>TO:</b> Commanding Officer of the SEV Torch<br>
-	<b>CC:</b> Special Representative aboard the SEV Torch<br>
-	<b>SUBJECT:</b> UMBRA protocol<br>
-	<hr>
-	This is a small addendum to the usual operating procedures. Unlike the rest of SOP, this is not left to the Commanding Officer's discretion and is mandatory. As unconventional as this is, we felt it is essential for smooth operation of this mission.<br>
-	Procedure can be initiated only by transmission from SCG Expeditionary Command via secure channel. The sender may not introduce themselves, but you shouldn't have trouble confirming the transmission source, I believe.<br>
-	The signal to initiate the procedure are codewords 'GOOD NIGHT WORLD' used in this order as one phrase. You do not need to send acknowledgement.
-	<li>Information about this expedition's findings is to be treated as secret and vital to SCG's national security, and is protected under codeword UMBRA. Only SCG government employees and Skrell citizens aboard the SEV Torch are allowed access to this information on a need-to-know basis.</li>
-	<li>The secrecy of this information is to be applied retroactively. Any non-cleared personnel who were exposed to such information are to be secured and transferred to DIA on arrival at home port.</li>
-	<li>Any devices capable of transmitting or receiving data at interstellar range are to be confiscated from private possession.</li>
-	<li>Disregard any systems remaining in your flight plan and set course for Sol, Neptune orbit. You will be contacted upon your arrival. Do not make stops in ports on the way unless absolutely necessary.</li>
-	<br>
-	While drastic, I assure you this is a simple precaution, lest any issues. Just keep the option open, and carry on with your normal duties.
-	<i>Regards, John.</i></tt>
-	<i>This paper has been stamped with the stamp of Office of the General Secretary of SCG.</i>
+<tt><center><b><span style='color: red'>TOP SECRET - CODE WORDS: SHATAB TENEVOY</span></b>
+<h3>RUSSIAN FED NAVY GENERAL STAFF</h3>
+<img src = rflogo.png>
+</center>
+<b>FROM:</b> Colonel-General Viktor Kuznetsov, GRU Special Department<br>
+<b>TO:</b> Shtab Divizion Commander of flagship "KREPOST"<br>
+<b>CC:</b> Political Officer aboard "KREPOST"<br>
+<b>SUBJECT:</b> TENEVOY Protocol<br>
+<hr>
+This supplements standard operating procedures. Unlike SOP, this protocol is MANDATORY and not subject to division commander's discretion. Essential for mission security.<br>
+
+Protocol activates ONLY via secure channel transmission from Main Navy Staff. Sender identity concealed but source verifiable.<br>
+Activation phrase: <b>"ZVEZDY UGASAYUT"</b> (Stars Go Dark) - exact sequence, no acknowledgment required.
+
+<li>Division findings classified TOP SECRET, state security level "TENEVOY". Access restricted to FSB-cleared personnel and division command staff only.</li>
+<li>Classification applies retroactively. Non-cleared personnel exposed to classified material will be detained and transferred to FSB upon return to base.</li>
+<li>Confiscate all personal interstellar communication devices immediately.</li>
+<li>Abort current operation. Set course for Murmansk Naval Base, Barents Sea. Await contact. No port calls en route unless critical.</li>
+
+Drastic but necessary precaution. Continue normal operations until activated.
+<i>Colonel-General Kuznetsov.</i></tt>
+<i>Stamped: General Staff Russian Navy - TENEVOY Protocol Authorized.</i>
 	"}
