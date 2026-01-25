@@ -461,8 +461,8 @@
 	sort_order = 150
 
 /datum/mil_rank/ec/o6
-	name = "Captain"
-	name_short = "CAPT"
+	name = "Captain First Rank"
+	name_short = "Kap. 1 r."
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/ec/officer/o6)
 	sort_order = 160
 
