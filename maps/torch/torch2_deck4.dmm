@@ -212,7 +212,6 @@
 "aK" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "admin_shuttle_dock_inner";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -708,7 +707,6 @@
 "cu" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "merchant_shuttle_station_exterior";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -915,7 +913,6 @@
 /area/crew_quarters/head/deck4)
 "dd" = (
 /obj/machinery/door/airlock/external/escapepod{
-	icon_state = "closed";
 	id_tag = "escape_pod_7_berth_hatch";
 	name = "Escape Pod Two"
 	},
@@ -1099,7 +1096,6 @@
 "dK" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "merchant_shuttle_station_interior";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -1302,7 +1298,6 @@
 "et" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "escape_pod_6_hatch";
 	locked = 1;
 	name = "Escape Pod One Hatch"
@@ -1352,7 +1347,6 @@
 "ey" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "escape_pod_7_hatch";
 	locked = 1;
 	name = "Escape Pod Two Hatch"
@@ -1807,7 +1801,7 @@
 "gc" = (
 /obj/floor_decal/corner/mauve/mono,
 /obj/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/pathfinder,
+/obj/item/gun/projectile/automatic/assault_rifle,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "gd" = (
@@ -2054,6 +2048,9 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "he" = (
@@ -2068,6 +2065,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/item/grenade/frag/high_yield,
+/obj/item/grenade/frag/high_yield,
+/obj/item/grenade/frag/high_yield,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "hf" = (
@@ -2080,6 +2080,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/item/gun/magnetic/railgun/automatic,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "hg" = (
@@ -2629,6 +2630,7 @@
 "jg" = (
 /obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/hologram/holopad/longrange,
+/obj/item/gun/projectile/automatic/battlerifle,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "jh" = (
@@ -4088,6 +4090,16 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
+"or" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/item/gun/launcher/rocket,
+/turf/simulated/floor/tiled,
+/area/command/pathfinder)
 "os" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -4647,7 +4659,6 @@
 "qQ" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "eva_airlock_outer";
 	locked = 1;
 	name = "EVA External Access"
@@ -5288,6 +5299,10 @@
 	},
 /obj/catwalk_plated,
 /turf/simulated/floor/plating,
+/area/hallway/primary/fourthdeck/fore)
+"sO" = (
+/obj/structure/closet/secure_closet/pathfinder,
+/turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "sR" = (
 /obj/floor_decal/corner/brown{
@@ -9209,7 +9224,6 @@
 /area/hallway/primary/fourthdeck/aft)
 "Gv" = (
 /obj/machinery/door/airlock/external/escapepod{
-	icon_state = "closed";
 	id_tag = "escape_pod_9_berth_hatch";
 	name = "Escape Pod Four"
 	},
@@ -9287,7 +9301,6 @@
 "GL" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "escape_pod_8_hatch";
 	locked = 1;
 	name = "Escape Pod Three Hatch"
@@ -9297,7 +9310,6 @@
 "GQ" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "escape_pod_9_hatch";
 	locked = 1;
 	name = "Escape Pod Four Hatch"
@@ -9408,7 +9420,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "skipjack_shuttle_dock_inner";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -9678,7 +9689,6 @@
 "Io" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "skipjack_shuttle_dock_outer";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -10197,7 +10207,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/external{
 	frequency = 1331;
-	icon_state = "closed";
 	id_tag = "rescue_shuttle_dock_inner";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -10515,6 +10524,7 @@
 /obj/structure/bed/chair/padded/purple{
 	dir = 1
 	},
+/obj/item/gun/projectile/automatic/bullpup_rifle,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "Li" = (
@@ -10660,7 +10670,6 @@
 "LD" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "eva_airlock_inner";
 	locked = 1;
 	name = "EVA Internal Access"
@@ -13620,7 +13629,6 @@
 "TN" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1331;
-	icon_state = "closed";
 	id_tag = "rescue_shuttle_dock_outer";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -13672,7 +13680,6 @@
 "TX" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
-	icon_state = "closed";
 	id_tag = "admin_shuttle_dock_outer";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -14409,6 +14416,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "Wl" = (
@@ -14658,6 +14668,7 @@
 /obj/floor_decal/corner/mauve{
 	dir = 5
 	},
+/obj/item/gun/projectile/revolver/medium,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "WS" = (
@@ -14823,6 +14834,7 @@
 	dir = 1
 	},
 /obj/floor_decal/corner/brown,
+/obj/item/gun/projectile/revolver,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "Xr" = (
@@ -15686,7 +15698,6 @@
 /area/command/pathfinder)
 "ZA" = (
 /obj/machinery/door/airlock/external/escapepod{
-	icon_state = "closed";
 	id_tag = "escape_pod_8_berth_hatch";
 	name = "Escape Pod Three"
 	},
@@ -31142,7 +31153,7 @@ fl
 fl
 fl
 qb
-Yy
+sO
 sG
 lR
 Rm
@@ -31542,7 +31553,7 @@ id
 fl
 gd
 he
-Wk
+or
 Wk
 kh
 lf
