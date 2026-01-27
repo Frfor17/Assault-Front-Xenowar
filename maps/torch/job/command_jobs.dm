@@ -36,8 +36,8 @@
 	..()
 
 /datum/job/hop
-	title = "Executive Officer"
-	supervisors = "the Commanding Officer"
+	title = "Starshiy Pomoshnik"
+	supervisors = "the Komandir Diviziona"
 	department = "Command"
 	department_flag = COM
 	minimal_player_age = 14
@@ -186,7 +186,7 @@
 	return "You are the Chief Medical Officer. You manage the medical department. You ensure all members of medical are skilled, tasked and handling their duties. Ensure your doctors are staffing your infirmary and your corpsman/paramedics are ready for response. Act as a second surgeon or backup pharmacist in the absence of either. You are expected to know medical very well, along with general regulations."
 
 /datum/job/chief_engineer
-	title = "Chief Engineer"
+	title = "Nachalnik Svyazi"
 	supervisors = "the Commanding Officer and the Executive Officer"
 	economic_power = 12
 	minimum_character_age = list(SPECIES_HUMAN = 27)
@@ -322,7 +322,7 @@
 	return "You are the Sol Gov Representative. You are a civilian assigned as both a diplomatic liaison for first contact and foreign affair situations on board. You are also responsible for monitoring for any serious missteps of justice, sol law or other ethical or legal issues aboard and informing and advising the Commanding Officer of them. You are a mid-level bureaucrat. You liaise between the crew and corporate interests on board. Send faxes back to Sol on mission progress and important events."
 
 /datum/job/sea
-	title = "Senior Enlisted Advisor"
+	title = "Nachalnik Shtaba"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
@@ -373,7 +373,7 @@
 	return "You are the Senior Enlisted Advisor. You are the highest enlisted person on the ship. You are directly subordinate to the CO. You advise them on enlisted concerns and provide expertise and advice to officers. You are responsible for ensuring discipline and good conduct among enlisted, as well as notifying officers of any issues and \"advising\" them on mistakes they make. You also handle various duties on behalf of the CO and XO. You are an experienced enlisted person, very likely equal only in experience to the CO and XO. You know the regulations better than anyone."
 
 /datum/job/bridgeofficer
-	title = "Bridge Officer"
+	title = "Shtab Officer"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 3
