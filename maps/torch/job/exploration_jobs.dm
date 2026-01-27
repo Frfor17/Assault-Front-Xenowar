@@ -1,10 +1,10 @@
 /datum/job/pathfinder
-	title = "Pathfinder"
+	title = "Komandir Vzvoda"
 	department = "Exploration"
 	department_flag = EXP
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief Science Officer"
+	supervisors = "Komandir Roty MP"
 	selection_color = "#68099e"
 	minimal_player_age = 1
 	economic_power = 10
@@ -85,12 +85,12 @@
 	)
 
 /datum/job/explorer
-	title = "Explorer"
+	title = "Strelok MP"
 	department = "Exploration"
 	department_flag = EXP
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Pathfinder"
+	supervisors = "Komandir Vzvoda"
 	selection_color = "#68099e"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20

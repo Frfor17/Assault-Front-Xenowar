@@ -1802,6 +1802,24 @@
 /obj/floor_decal/corner/mauve/mono,
 /obj/floor_decal/industrial/outline/yellow,
 /obj/item/gun/projectile/automatic/assault_rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/structure/table/rack/dark,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/clothing/head/ushanka/gcc,
+/obj/item/clothing/under/magintka_uniform,
+/obj/item/clothing/under/soviet,
+/obj/item/clothing/suit/armor/pcarrier/green,
+/obj/item/clothing/head/helmet/tactical,
+/obj/item/clothing/head/iccgn/service,
+/obj/item/clothing/gloves/tactical,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "gd" = (
@@ -2038,7 +2056,6 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "hd" = (
-/obj/floor_decal/corner/mauve/mono,
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "west bump";
@@ -2048,15 +2065,10 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "he" = (
-/obj/floor_decal/corner/mauve{
-	dir = 5
-	},
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 8;
@@ -2065,22 +2077,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/item/grenade/frag/high_yield,
-/obj/item/grenade/frag/high_yield,
-/obj/item/grenade/frag/high_yield,
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "hf" = (
-/obj/floor_decal/corner/mauve{
-	dir = 5
-	},
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/item/gun/magnetic/railgun/automatic,
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "hg" = (
@@ -2358,19 +2365,18 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "hV" = (
-/obj/floor_decal/corner/mauve/half{
-	dir = 8
-	},
 /obj/machinery/photocopier,
 /obj/machinery/alarm{
 	dir = 4;
 	pixel_x = -22
 	},
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "hX" = (
-/obj/structure/table/standard,
 /obj/item/material/folder/blue,
+/obj/item/gun/projectile/pistol/optimus,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "hY" = (
@@ -2618,19 +2624,16 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
 "jf" = (
-/obj/floor_decal/corner/mauve/half{
-	dir = 8
-	},
 /obj/machinery/papershredder,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "jg" = (
 /obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/hologram/holopad/longrange,
-/obj/item/gun/projectile/automatic/battlerifle,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "jh" = (
@@ -2809,7 +2812,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/eva)
 "kg" = (
-/obj/floor_decal/corner/mauve/mono,
 /obj/machinery/button/windowtint{
 	id = "pathfinder_office";
 	pixel_x = -24;
@@ -2823,12 +2825,10 @@
 /obj/machinery/photocopier/faxmachine{
 	department = "Torch - Pathfinder"
 	},
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "kh" = (
-/obj/floor_decal/corner/mauve{
-	dir = 10
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
@@ -2842,12 +2842,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/floor_decal/corner/b_green/half,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "ki" = (
-/obj/floor_decal/corner/mauve{
-	dir = 10
-	},
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -24
@@ -2855,6 +2853,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/floor_decal/corner/b_green/half,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "kj" = (
@@ -3629,10 +3628,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "my" = (
-/obj/structure/table/standard,
-/obj/floor_decal/corner/mauve/half{
-	dir = 4
-	},
 /obj/item/paper_bin{
 	pixel_x = -3;
 	pixel_y = 7
@@ -3641,6 +3636,8 @@
 	pixel_x = 4;
 	pixel_y = 4
 	},
+/obj/floor_decal/corner/b_green/mono,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "mz" = (
@@ -4097,7 +4094,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/item/gun/launcher/rocket,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "os" = (
@@ -4232,15 +4228,15 @@
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod9/station)
 "oO" = (
-/obj/floor_decal/corner/mauve/mono,
 /obj/machinery/disposal,
-/obj/floor_decal/industrial/outline/yellow,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
 /obj/structure/sign/ecplaque{
 	pixel_x = 30
 	},
+/obj/floor_decal/corner/b_green/mono,
+/obj/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "oT" = (
@@ -4790,9 +4786,6 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/head/deck4)
 "rl" = (
-/obj/floor_decal/corner/mauve{
-	dir = 5
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
@@ -5300,10 +5293,6 @@
 /obj/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
-"sO" = (
-/obj/structure/closet/secure_closet/pathfinder,
-/turf/simulated/floor/tiled,
-/area/hallway/primary/fourthdeck/fore)
 "sR" = (
 /obj/floor_decal/corner/brown{
 	dir = 10
@@ -5790,6 +5779,7 @@
 /obj/floor_decal/corner/red{
 	dir = 10
 	},
+/obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "ui" = (
@@ -6604,6 +6594,7 @@
 /obj/floor_decal/corner/red/half{
 	dir = 1
 	},
+/obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/hangcheck)
 "wK" = (
@@ -7051,6 +7042,7 @@
 	},
 /obj/machinery/hologram/holopad,
 /obj/floor_decal/industrial/outline/yellow,
+/obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/dark,
 /area/security/hangcheck)
 "yg" = (
@@ -7445,6 +7437,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/dark,
 /area/security/hangcheck)
 "zD" = (
@@ -7459,12 +7452,10 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/diplomatic_office)
 "zE" = (
-/obj/floor_decal/corner/mauve/half{
-	dir = 4
-	},
 /obj/structure/filingcabinet/chestdrawer,
 /obj/item/material/folder/envelope,
 /obj/item/material/folder/envelope,
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "zF" = (
@@ -8515,6 +8506,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/laundry)
+"Eg" = (
+/obj/floor_decal/corner/red{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/fourthdeck/fore)
 "Em" = (
 /obj/floor_decal/corner/brown/half{
 	dir = 8
@@ -10524,7 +10521,6 @@
 /obj/structure/bed/chair/padded/purple{
 	dir = 1
 	},
-/obj/item/gun/projectile/automatic/bullpup_rifle,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "Li" = (
@@ -11160,6 +11156,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/dark,
 /area/security/hangcheck)
 "Nd" = (
@@ -12311,6 +12308,7 @@
 /obj/structure/bed/chair/padded/red{
 	dir = 4
 	},
+/obj/decal/cleanable/blood/gibs/robot,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/hangcheck)
 "Qr" = (
@@ -12392,10 +12390,10 @@
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/deckchief)
 "QG" = (
-/obj/structure/table/standard,
 /obj/item/stamp/path,
 /obj/random_multi/single_item/memo_research,
 /obj/random_multi/single_item/memo_exploration,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "QI" = (
@@ -13477,12 +13475,10 @@
 /area/quartermaster/office)
 "Ts" = (
 /obj/structure/bed/chair/office/comfy/purple,
-/obj/floor_decal/corner/mauve{
-	dir = 5
-	},
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "Tt" = (
@@ -13766,12 +13762,6 @@
 "Uo" = (
 /turf/simulated/floor/wood/walnut,
 /area/command/captainmess)
-"Up" = (
-/obj/floor_decal/corner/red{
-	dir = 10
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/fourthdeck/fore)
 "Uq" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -14343,15 +14333,13 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "VU" = (
-/obj/floor_decal/corner/mauve{
-	dir = 10
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/floor_decal/corner/b_green/half,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
 "VW" = (
@@ -14409,18 +14397,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod8/station)
-"Wk" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/item/ammo_magazine/rifle,
-/obj/item/ammo_magazine/rifle,
-/obj/item/ammo_magazine/rifle,
-/turf/simulated/floor/tiled,
-/area/command/pathfinder)
 "Wl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -14556,9 +14532,6 @@
 /turf/space,
 /area/space)
 "WC" = (
-/obj/floor_decal/corner/mauve{
-	dir = 5
-	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
 	d1 = 1;
@@ -14664,13 +14637,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
-"WR" = (
-/obj/floor_decal/corner/mauve{
-	dir = 5
-	},
-/obj/item/gun/projectile/revolver/medium,
-/turf/simulated/floor/tiled,
-/area/hallway/primary/fourthdeck/fore)
 "WS" = (
 /obj/floor_decal/corner/brown/half,
 /obj/structure/cable{
@@ -14834,7 +14800,7 @@
 	dir = 1
 	},
 /obj/floor_decal/corner/brown,
-/obj/item/gun/projectile/revolver,
+/obj/machinery/vending/sovietsoda,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "Xr" = (
@@ -15690,10 +15656,10 @@
 	dir = 8;
 	icon_state = "console"
 	},
-/obj/floor_decal/corner/mauve/mono,
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
+/obj/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/command/pathfinder)
 "ZA" = (
@@ -29943,7 +29909,7 @@ le
 le
 rj
 sG
-Up
+Eg
 vC
 Nm
 ay
@@ -30751,7 +30717,7 @@ kl
 MR
 qa
 sF
-Up
+Eg
 KH
 Qq
 yh
@@ -31153,7 +31119,7 @@ fl
 fl
 fl
 qb
-sO
+Yy
 sG
 lR
 Rm
@@ -31355,7 +31321,7 @@ hV
 jf
 kg
 nn
-WR
+Yy
 sH
 Yy
 le
@@ -31554,7 +31520,7 @@ fl
 gd
 he
 or
-Wk
+or
 kh
 lf
 WC
