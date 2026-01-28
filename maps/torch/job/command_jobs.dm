@@ -1,5 +1,5 @@
 /datum/job/captain
-	title = "Shtab Divizion Commander"
+	title = "Stavka Divizion Commander"
 	supervisors = "the Shtab of Minister of Defence"
 	minimal_player_age = 14
 	economic_power = 16
@@ -243,7 +243,7 @@
 	return "You are the Chief Engineer. You manage the Engineering Department. You are responsible for the Senior engineer, who is your right hand and (should be) an experienced, skilled engineer. Delegate to and listen to them. Manage your engineers, ensure vessel power stays on, breaches are patched and problems are fixed. Advise the CO on engineering matters. You are also responsible for the maintenance and control of any vessel synthetics. You are an experienced engineer with a wealth of theoretical knowledge. You should also know vessel regulations to a reasonable degree."
 
 /datum/job/hos
-	title = "Chief of Security"
+	title = "Kommisar"
 	supervisors = "the Commanding Officer and the Executive Officer"
 	economic_power = 10
 	minimal_player_age = 14
@@ -322,7 +322,7 @@
 	return "You are the Sol Gov Representative. You are a civilian assigned as both a diplomatic liaison for first contact and foreign affair situations on board. You are also responsible for monitoring for any serious missteps of justice, sol law or other ethical or legal issues aboard and informing and advising the Commanding Officer of them. You are a mid-level bureaucrat. You liaise between the crew and corporate interests on board. Send faxes back to Sol on mission progress and important events."
 
 /datum/job/sea
-	title = "Nachalnik Shtaba"
+	title = "Nachalnik Stavki"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
@@ -373,7 +373,7 @@
 	return "You are the Senior Enlisted Advisor. You are the highest enlisted person on the ship. You are directly subordinate to the CO. You advise them on enlisted concerns and provide expertise and advice to officers. You are responsible for ensuring discipline and good conduct among enlisted, as well as notifying officers of any issues and \"advising\" them on mistakes they make. You also handle various duties on behalf of the CO and XO. You are an experienced enlisted person, very likely equal only in experience to the CO and XO. You know the regulations better than anyone."
 
 /datum/job/bridgeofficer
-	title = "Shtab Officer"
+	title = "Stavka Officer"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 3
