@@ -1879,7 +1879,9 @@
 /obj/floor_decal/corner/red{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/decal/cleanable/liquid_fuel,
+/obj/random/trash,
+/turf/simulated/floor/plating,
 /area/bridge/disciplinary_board_room)
 "dk" = (
 /turf/simulated/wall/prepainted,
@@ -3366,12 +3368,10 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "gg" = (
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
-	},
 /obj/structure/cable/green,
 /obj/floor_decal/corner/red/mono,
+/obj/decal/cleanable/filth,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room)
 "gh" = (
@@ -4179,6 +4179,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/xo)
+"iG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/decal/cleanable/blood,
+/obj/decal/cleanable/liquid_fuel,
+/turf/simulated/floor/tiled/dark,
+/area/bridge/disciplinary_board_room)
 "iI" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -4622,6 +4630,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
+"kd" = (
+/obj/random/toolbox,
+/turf/simulated/floor/plating,
+/area/bridge/disciplinary_board_room)
 "ke" = (
 /obj/structure/bed/chair/shuttle/blue{
 	dir = 4
@@ -5747,6 +5759,10 @@
 	},
 /obj/machinery/door/airlock/sol{
 	name = "Deliberation Room"
+	},
+/obj/structure/barricade,
+/obj/item/airlock_brace{
+	req_access = list("ACCESS_BRIDGE")
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room/deliberation)
@@ -7142,6 +7158,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "rC" = (
@@ -7372,6 +7389,12 @@
 /obj/floor_decal/corner/red{
 	dir = 10
 	},
+/obj/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "si" = (
@@ -7563,6 +7586,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/barricade,
+/obj/structure/sign/warning/biohazard,
+/obj/item/airlock_brace{
+	req_access = list("ACCESS_BRIDGE")
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room)
 "sT" = (
@@ -7752,9 +7780,6 @@
 /area/crew_quarters/heads/office/sgr)
 "tx" = (
 /obj/structure/bookcase,
-/obj/item/book/manual/solgov_law,
-/obj/item/book/manual/sol_sop,
-/obj/item/book/manual/military_law,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -7768,11 +7793,11 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/random/drinkbottle,
 /obj/structure/sign/warning/nosmoking_1{
 	desc = "A warning sign which reads 'NO SMOKING'. Someone has scratched a variety of crude words in gutter across the entire sign.";
 	pixel_y = 26
 	},
+/obj/item/reagent_containers/food/drinks/bottle/premiumvodka,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
 "tz" = (
@@ -8053,10 +8078,14 @@
 /obj/floor_decal/corner/red{
 	dir = 8
 	},
+/obj/decal/cleanable/blood/gibs/body,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "up" = (
-/turf/simulated/floor/tiled/dark,
+/obj/decal/cleanable/remains,
+/obj/decal/cleanable/tomato_smudge,
+/turf/simulated/floor/plating,
 /area/bridge/disciplinary_board_room)
 "uq" = (
 /obj/structure/cable/green{
@@ -8066,6 +8095,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/decal/cleanable/blood,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "us" = (
@@ -8273,6 +8303,9 @@
 /obj/floor_decal/corner/red{
 	dir = 8
 	},
+/obj/decal/cleanable/cobweb,
+/obj/decal/cleanable/greenglow,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "uT" = (
@@ -8289,13 +8322,18 @@
 /obj/floor_decal/corner/red{
 	dir = 8
 	},
+/obj/decal/cleanable/generic,
+/obj/decal/cleanable/liquid_fuel,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "uU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/decal/cleanable/liquid_fuel,
+/obj/random/trash,
+/turf/simulated/floor/plating,
 /area/bridge/disciplinary_board_room)
 "uV" = (
 /obj/structure/sign/deck/bridge{
@@ -8314,6 +8352,7 @@
 /obj/floor_decal/corner/red{
 	dir = 6
 	},
+/obj/decal/cleanable/blood/gibs/limb,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "uX" = (
@@ -8490,12 +8529,13 @@
 /obj/item/reagent_containers/food/drinks/glass2/rocks,
 /obj/item/reagent_containers/food/drinks/glass2/rocks,
 /obj/item/reagent_containers/food/drinks/ice,
-/obj/item/reagent_containers/food/drinks/bottle/cognac,
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/keycard_auth/torch{
 	pixel_y = 24
 	},
 /obj/floor_decal/corner/red/mono,
+/obj/item/reagent_containers/food/drinks/bottle/premiumvodka,
+/obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room/deliberation)
 "vA" = (
@@ -8656,6 +8696,8 @@
 	dir = 4
 	},
 /obj/floor_decal/corner/red/mono,
+/obj/decal/cleanable/blood,
+/obj/decal/cleanable/vomit,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room/deliberation)
 "wc" = (
@@ -8674,6 +8716,11 @@
 	dir = 1
 	},
 /obj/floor_decal/corner/red,
+/obj/decal/cleanable/blood,
+/obj/decal/cleanable/blood/gibs/limb,
+/obj/decal/cleanable/liquid_fuel,
+/obj/decal/cleanable/remains,
+/obj/rune/defile,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room/deliberation)
 "wd" = (
@@ -8689,6 +8736,10 @@
 /obj/floor_decal/corner/red{
 	dir = 1
 	},
+/obj/decal/cleanable/blood,
+/obj/decal/cleanable/liquid_fuel,
+/obj/decal/cleanable/remains,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room/deliberation)
 "wf" = (
@@ -8714,6 +8765,8 @@
 /obj/floor_decal/corner/red{
 	dir = 10
 	},
+/obj/decal/cleanable/blood,
+/obj/decal/cleanable/pie_smudge,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "wg" = (
@@ -8732,6 +8785,7 @@
 /obj/floor_decal/corner/red{
 	dir = 10
 	},
+/obj/item/toy/figure/janitor,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "wh" = (
@@ -9030,13 +9084,12 @@
 	},
 /obj/machinery/light/small,
 /obj/floor_decal/corner/red/mono,
+/obj/decal/cleanable/blood/gibs/limb,
+/obj/random/plushie/large,
+/obj/rune/teleport,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room/deliberation)
 "wI" = (
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
-	},
 /obj/structure/cable/green,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -9044,6 +9097,9 @@
 /obj/floor_decal/corner/red{
 	dir = 1
 	},
+/obj/decal/cleanable/blood,
+/obj/decal/cleanable/remains,
+/obj/random/solgov,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room/deliberation)
 "wJ" = (
@@ -9054,6 +9110,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/decal/cleanable/blood,
+/obj/random/trash,
+/obj/rune/offering,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room/deliberation)
 "wL" = (
@@ -9061,6 +9120,9 @@
 	dir = 1
 	},
 /obj/floor_decal/corner/red/mono,
+/obj/decal/cleanable/remains,
+/obj/decal/cleanable/vomit,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room)
 "wM" = (
@@ -9085,8 +9147,9 @@
 	c_tag = "Bridge - Disciplinary Board";
 	dir = 1
 	},
-/obj/floor_decal/corner/red/mono,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/decal/cleanable/blood/xeno,
+/obj/random/trash,
+/turf/simulated/floor/plating,
 /area/bridge/disciplinary_board_room)
 "wP" = (
 /turf/simulated/open,
@@ -9845,6 +9908,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/fore)
+"zp" = (
+/obj/random/vendor,
+/turf/simulated/floor/tiled/techfloor,
+/area/maintenance/bridge/aftport)
 "zq" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -9910,6 +9977,7 @@
 	dir = 1
 	},
 /obj/floor_decal/corner/red,
+/obj/structure/janitorialcart,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "zM" = (
@@ -10441,10 +10509,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/co)
-"BL" = (
-/obj/item/toy/torchmodel,
-/turf/simulated/floor/carpet/red,
-/area/crew_quarters/heads/cobed)
 "BO" = (
 /obj/machinery/atmospherics/unary/tank/carbon_dioxide{
 	dir = 4;
@@ -10965,6 +11029,8 @@
 /obj/floor_decal/corner/red{
 	dir = 5
 	},
+/obj/decal/cleanable/generic,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "DY" = (
@@ -11131,7 +11197,6 @@
 "EP" = (
 /obj/floor_decal/corner/paleblue/diagonal,
 /obj/structure/closet/secure_closet/CMO_torch,
-/obj/item/book/manual/sol_sop,
 /obj/floor_decal/industrial/outline/yellow,
 /obj/machinery/firealarm{
 	dir = 4;
@@ -11329,13 +11394,9 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "FX" = (
-/obj/structure/table/woodentable/walnut,
-/obj/floor_decal/corner/red{
-	dir = 5
-	},
-/obj/item/toy/torchmodel,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/bridge/meeting_room)
+/obj/structure/bed/chair/padded/blue,
+/turf/simulated/floor/plating,
+/area/bridge/disciplinary_board_room)
 "Ga" = (
 /obj/floor_decal/corner/yellow{
 	dir = 10
@@ -12350,8 +12411,10 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/office/rd)
 "Jo" = (
-/obj/floor_decal/corner/red/mono,
-/turf/simulated/floor/tiled/dark/monotile,
+/obj/decal/cleanable/generic,
+/obj/decal/cleanable/liquid_fuel,
+/obj/random/trash,
+/turf/simulated/floor/plating,
 /area/bridge/disciplinary_board_room)
 "Jp" = (
 /obj/machinery/atmospherics/unary/tank/air{
@@ -12674,10 +12737,7 @@
 	dir = 8;
 	pixel_x = 20
 	},
-/obj/floor_decal/corner/red{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/bridge/disciplinary_board_room)
 "Le" = (
 /obj/structure/sign/warning/high_voltage,
@@ -12719,7 +12779,9 @@
 /obj/floor_decal/corner/red{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/decal/cleanable/liquid_fuel,
+/obj/structure/bed/padded,
+/turf/simulated/floor/plating,
 /area/bridge/disciplinary_board_room)
 "Li" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -12756,6 +12818,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
+"Lp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/decal/cleanable/vomit,
+/obj/item/crowbar,
+/turf/simulated/floor/plating,
+/area/bridge/disciplinary_board_room)
 "Lr" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -12894,13 +12964,11 @@
 	dir = 4;
 	pixel_x = 21
 	},
-/obj/floor_decal/corner/red{
-	dir = 6
-	},
-/obj/floor_decal/corner/red{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/decal/cleanable/generic,
+/obj/decal/cleanable/liquid_fuel,
+/obj/decal/graffiti_bam,
+/obj/random/trash,
+/turf/simulated/floor/plating,
 /area/bridge/disciplinary_board_room)
 "Mc" = (
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -13027,6 +13095,7 @@
 	dir = 1
 	},
 /obj/floor_decal/corner/red/mono,
+/obj/decal/cleanable/vomit,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room)
 "Nc" = (
@@ -13409,6 +13478,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/bridgecheck)
+"Oo" = (
+/obj/structure/table/woodentable/walnut,
+/obj/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/item/toy/torchmodel,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/bridge/meeting_room)
 "Oq" = (
 /obj/paint/red,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
@@ -13795,6 +13872,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/random_multi/single_item/punitelli,
+/obj/decal/cleanable/blood,
+/obj/decal/cleanable/vomit,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "Qh" = (
@@ -14395,6 +14474,7 @@
 /obj/item/device/tape/random,
 /obj/item/device/taperecorder,
 /obj/floor_decal/corner/red/mono,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room)
 "SE" = (
@@ -14461,6 +14541,10 @@
 	map_airless = 1
 	},
 /area/aquila/storage)
+"SS" = (
+/obj/item/toy/torchmodel,
+/turf/simulated/floor/carpet/red,
+/area/crew_quarters/heads/cobed)
 "SU" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -14579,6 +14663,7 @@
 	},
 /obj/item/pen,
 /obj/floor_decal/corner/red/mono,
+/obj/decal/cleanable/cobweb,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room/deliberation)
 "Tg" = (
@@ -14706,6 +14791,8 @@
 	dir = 4
 	},
 /obj/floor_decal/corner/red,
+/obj/decal/cleanable/liquid_fuel,
+/obj/random/trash,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "TK" = (
@@ -14783,6 +14870,10 @@
 	dir = 1
 	},
 /obj/floor_decal/corner/red/mono,
+/obj/decal/cleanable/blood/gibs/limb,
+/obj/decal/cleanable/greenglow,
+/obj/decal/cleanable/liquid_fuel,
+/obj/random/raider/hardsuit,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room/deliberation)
 "Ug" = (
@@ -14969,6 +15060,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/decal/cleanable/blood,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "Vg" = (
@@ -15356,6 +15448,25 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
+"Xd" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/decal/remains,
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/aftport)
 "Xe" = (
 /obj/structure/bed/chair/comfy/blue,
 /turf/simulated/floor/carpet/orange,
@@ -15628,6 +15739,8 @@
 	dir = 8
 	},
 /obj/floor_decal/corner/red,
+/obj/decal/cleanable/blood,
+/obj/structure/barricade/spike,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "Yh" = (
@@ -15740,6 +15853,9 @@
 	name = "Disciplinary Board Room Maintenance Access"
 	},
 /obj/machinery/door/firedoor,
+/obj/item/airlock_brace{
+	req_access = list("ACCESS_BRIDGE")
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room)
 "YS" = (
@@ -23783,7 +23899,7 @@ yS
 Py
 uy
 VW
-BL
+SS
 EJ
 DQ
 xx
@@ -26592,7 +26708,7 @@ aO
 eU
 qg
 Vn
-FX
+Oo
 dl
 Xe
 dK
@@ -29636,9 +29752,9 @@ rl
 zF
 TX
 DV
-up
-uU
-rA
+kd
+Lp
+iG
 wf
 wL
 TX
@@ -30039,7 +30155,7 @@ fW
 Cv
 pI
 kJ
-DV
+FX
 up
 uU
 rA
@@ -30248,7 +30364,7 @@ Lb
 Mb
 Jo
 YN
-xl
+Xd
 CN
 CN
 CN
@@ -30848,7 +30964,7 @@ Vh
 EN
 kJ
 oS
-OK
+zp
 oh
 vF
 wj
