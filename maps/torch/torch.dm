@@ -105,6 +105,7 @@
 	#include "job/security_jobs.dm"
 	#include "job/service_jobs.dm"
 	#include "job/supply_jobs.dm"
+	#include "job/war_jobs.dm"
 
 	#include "job/outfits/torch_outfits.dm"
 	#include "job/outfits/command_outfits.dm"
@@ -117,6 +118,7 @@
 	#include "job/outfits/security_outfits.dm"
 	#include "job/outfits/service_outfits.dm"
 	#include "job/outfits/supply_outfits.dm"
+	#include "job/outfits/war_outfits.dm"
 
 	#include "language/human/euro.dm"
 	#include "language/human/misc/spacer.dm"
