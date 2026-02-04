@@ -349,3 +349,11 @@
 	species_restricted = list(SPECIES_MONKEY)
 	sprite_sheets = list("Monkey" = 'icons/mob/species/monkey/onmob_under_monkey.dmi')
 	accessories = list(/obj/item/clothing/accessory/solgov/rank/fleet/officer/wo1_monkey)
+
+// war
+
+/obj/item/clothing/under/solgov/soldier
+	name = "soldier's uniform"
+	desc = "They Combat Uniform of Soldier"
+	icon_state = "greydressfem_com"
+	worn_state = "greydressfem_com"

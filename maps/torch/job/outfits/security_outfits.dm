@@ -54,3 +54,10 @@
 	name = OUTFIT_JOB_NAME("Master at Arms - Fleet")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/security
 	shoes = /obj/item/clothing/shoes/dutyboots
+
+/singleton/hierarchy/outfit/job/torch/crew/security/soldier
+	name = OUTFIT_JOB_NAME("Soldier")
+	uniform = /obj/item/clothing/under/solgov/soldier
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_types = list(/obj/item/card/id/torch/crew/security)
+	pda_type = /obj/item/modular_computer/pda/security
