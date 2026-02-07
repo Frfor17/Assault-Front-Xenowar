@@ -2363,6 +2363,8 @@
 #include "code\modules\mob\living\carbon\xenobiological\update_icons.dm"
 #include "code\modules\mob\living\carbon\xenobiological\xenobiological.dm"
 #include "code\modules\mob\living\carbon\xenomorph\xenomorph.dm"
+#include "code\modules\mob\living\carbon\zergomorph\zergomorph.dm"
+#include "code\modules\mob\living\carbon\zergomorph\zergomorph_hud.dm"
 #include "code\modules\mob\living\maneuvers\_maneuver.dm"
 #include "code\modules\mob\living\maneuvers\maneuver_leap.dm"
 #include "code\modules\mob\living\silicon\death.dm"
