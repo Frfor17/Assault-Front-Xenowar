@@ -2,8 +2,20 @@
 "a" = (
 /turf/simulated/floor/exoplanet/desert,
 /area/space)
+"d" = (
+/mob/living/simple_animal/hostile/meat/abomination,
+/turf/simulated/floor/exoplanet/desert,
+/area/space)
 "e" = (
 /turf/simulated/floor/exoplanet/grass,
+/area/space)
+"i" = (
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/exoplanet/desert,
+/area/space)
+"j" = (
+/mob/living/simple_animal/hostile/meat/horror,
+/turf/simulated/floor/exoplanet/desert,
 /area/space)
 "x" = (
 /turf/simulated/mineral,
@@ -14,6 +26,10 @@
 "Q" = (
 /obj/shuttle_landmark,
 /turf/simulated/floor/exoplanet/grass,
+/area/space)
+"W" = (
+/mob/living/simple_animal/hostile/meat/humansecurity,
+/turf/simulated/floor/exoplanet/desert,
 /area/space)
 
 (1,1,1) = {"
@@ -6000,7 +6016,7 @@ a
 a
 a
 a
-a
+j
 a
 a
 a
@@ -6099,10 +6115,10 @@ a
 a
 a
 a
+W
 a
 a
-a
-a
+W
 a
 a
 a
@@ -6302,10 +6318,10 @@ a
 a
 a
 a
+i
 a
 a
-a
-a
+d
 a
 a
 a
@@ -6410,7 +6426,7 @@ a
 a
 a
 a
-a
+j
 a
 a
 a
@@ -6507,9 +6523,9 @@ a
 a
 a
 a
+d
 a
-a
-a
+i
 a
 a
 a
