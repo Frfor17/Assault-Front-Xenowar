@@ -24,7 +24,7 @@
 		/datum/job/liaison, /datum/job/representative, /datum/job/sea,
 		/datum/job/bridgeofficer, /datum/job/pathfinder, /datum/job/nt_pilot, /datum/job/explorer,
 		/datum/job/senior_engineer, /datum/job/engineer, /datum/job/roboticist, /datum/job/engineer_trainee,
-		/datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/soldier,
+		/datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/soldier, /datum/job/merc_pmc, /datum/job/merc_pmc/merc_pmc_leader, /datum/job/legionnaire, /datum/job/legionnaire/decanus, /datum/job/flagelant, /datum/job/commissar,
 		/datum/job/senior_doctor, /datum/job/doctor, /datum/job/junior_doctor, /datum/job/chemist, /datum/job/medical_trainee,
 		/datum/job/psychiatrist,
 		/datum/job/qm, /datum/job/cargo_tech, /datum/job/mining,
