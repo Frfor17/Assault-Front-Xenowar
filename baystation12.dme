@@ -1520,6 +1520,7 @@
 #include "code\modules\ai\ai_holder_subtypes\alien_ai.dm"
 #include "code\modules\ai\ai_holder_subtypes\human_ai.dm"
 #include "code\modules\ai\ai_holder_subtypes\simple_mob_ai.dm"
+#include "code\modules\ai-bridge\ai_bridge.dm"
 #include "code\modules\alarm\alarm.dm"
 #include "code\modules\alarm\alarm_handler.dm"
 #include "code\modules\alarm\atmosphere_alarm.dm"
