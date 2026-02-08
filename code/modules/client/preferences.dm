@@ -44,6 +44,11 @@
 	var/datum/category_collection/player_setup_collection/player_setup
 	var/datum/browser/panel
 
+	// player can choose his language first entering the server, then he can change it
+	// language define the squads, anouncments, ghostchat, ooc, everything
+	// any language can be added, but first of all it will be Russian and English
+	var/client_language = "English"
+
 /datum/preferences/New(client/C)
 	if(istype(C))
 		client = C
