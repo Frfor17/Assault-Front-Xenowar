@@ -4,5 +4,5 @@
 /obj/structure/naval_gun
 	name = "Big Naval Gun"
 	desc = "its big naval gun, which is firing artillery shells"
-	icon = ''
-	icon_state = ""
+	icon = 'icons/obj/structures/naval_guns.dmi'
+	icon_state = "naval_gun"
