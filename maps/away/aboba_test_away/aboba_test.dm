@@ -7,6 +7,6 @@
 	name = "aboba_test"
 	id = "awaysite_aboba_test"
 	description = "aboba test"
-	suffixes = list("aboba_test_away/mininghome.dmm")
+	suffixes = list("aboba_test_away/warfare_map_attempt1.dmm")
 	spawn_cost = 0
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
