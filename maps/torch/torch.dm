@@ -193,6 +193,7 @@
 	#include "../away/abandoned_hotel/abandoned_hotel.dm"
 	#include "../away/spy_station/spy_station.dm"
 	#include "../away/salvage_shuttle/salvage_shuttle.dm"
+	#include "../away/aboba_test_away/aboba_test.dm"
 
 	#include "../event/iccgn_ship/icgnv_hound.dm"
 	#include "../event/sfv_arbiter/sfv_arbiter.dm"
