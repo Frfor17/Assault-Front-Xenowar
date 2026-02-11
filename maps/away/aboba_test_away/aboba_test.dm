@@ -4,6 +4,10 @@
 	icon_state = "event"
 	place_near_main = 1
 
+	initial_generic_waypoints = list(
+		"aboba_test_1",
+	)
+
 /datum/map_template/ruin/away_site/aboba_test
 	name = "aboba_test"
 	id = "awaysite_aboba_test"
@@ -12,6 +16,6 @@
 	spawn_cost = 0
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
-/obj/shuttle_landmark/aboba_pad1
-	name = "Aboba test 1"
-	landmark_tag = "aboba_pad1"
+/obj/shuttle_landmark/aboba_1_landmakr
+	name = "adboba test landmakr"
+	landmark_tag = "aboba_test_1"

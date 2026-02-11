@@ -52,7 +52,7 @@
 /turf/simulated/floor/exoplanet/desert,
 /area/space)
 "Z" = (
-/obj/shuttle_landmark/aboba_pad1,
+/obj/shuttle_landmark/aboba_1_landmakr,
 /turf/simulated/floor/exoplanet/desert,
 /area/space)
 
@@ -4683,7 +4683,7 @@ a
 a
 a
 a
-a
+Z
 a
 a
 a
@@ -5201,7 +5201,7 @@ a
 a
 a
 a
-Z
+a
 a
 e
 a
