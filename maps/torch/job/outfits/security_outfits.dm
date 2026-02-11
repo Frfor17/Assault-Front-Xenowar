@@ -61,3 +61,18 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_types = list(/obj/item/card/id/torch/crew/security)
 	pda_type = /obj/item/modular_computer/pda/security
+
+/singleton/hierarchy/outfit/job/torch/crew/security/guardsman
+	name = OUTFIT_JOB_NAME("Guardsman")
+	uniform = /obj/item/clothing/under/solgov/guardsman
+	shoes = /obj/item/clothing/shoes/dutyboots
+
+/singleton/hierarchy/outfit/job/torch/crew/security/kommisar
+	name = OUTFIT_JOB_NAME("Kommisar")
+	uniform = /obj/item/clothing/under/solgov/kommisar
+	shoes = /obj/item/clothing/shoes/dutyboots
+
+/singleton/hierarchy/outfit/job/torch/crew/security/techpriest
+	name = OUTFIT_JOB_NAME("Techpriest")
+	uniform = /obj/item/clothing/under/solgov/guardsman
+	shoes = /obj/item/clothing/shoes/dutyboots

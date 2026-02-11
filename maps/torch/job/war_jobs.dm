@@ -188,7 +188,7 @@
 	minimal_player_age = 7
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 25
-	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/security/soldier
+	outfit_type = /singleton/hierarchy/outfit/job/torch/crew/security/kommisar
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
 		/datum/mil_branch/fleet = /singleton/hierarchy/outfit/job/torch/crew/security/maa/fleet,

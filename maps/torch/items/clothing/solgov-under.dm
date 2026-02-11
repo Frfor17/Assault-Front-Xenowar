@@ -357,3 +357,15 @@
 	desc = "They Combat Uniform of Soldier"
 	icon_state = "greydressfem_com"
 	worn_state = "greydressfem_com"
+
+/obj/item/clothing/under/solgov/guardsman
+	name = "guardsman's uniform"
+	desc = "They Combat Uniform of guardsman"
+	icon_state = "guardsman"
+	worn_state = "guard_s_old"
+
+/obj/item/clothing/under/solgov/kommisar
+	name = "kommisar's uniform"
+	desc = "They Combat Uniform of kommisar"
+	icon_state = "kommisar"
+	worn_state = "fleetpt_s"
