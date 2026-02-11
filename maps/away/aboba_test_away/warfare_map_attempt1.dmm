@@ -29,6 +29,10 @@
 /mob/living/simple_animal/hostile/viscerator,
 /turf/simulated/floor/exoplanet/desert,
 /area/space)
+"s" = (
+/obj/overmap/visitable/sector/aboba_test,
+/turf/simulated/floor/exoplanet/desert,
+/area/space)
 "x" = (
 /turf/simulated/mineral,
 /area/space)
@@ -39,16 +43,16 @@
 "K" = (
 /turf/unsimulated/wall,
 /area/space)
-"Q" = (
-/obj/shuttle_landmark,
-/turf/simulated/floor/exoplanet/grass,
-/area/space)
 "W" = (
 /mob/living/simple_animal/hostile/meat/humansecurity,
 /turf/simulated/floor/exoplanet/desert,
 /area/space)
 "X" = (
 /mob/living/simple_animal/hostile/hivebot,
+/turf/simulated/floor/exoplanet/desert,
+/area/space)
+"Z" = (
+/obj/shuttle_landmark/aboba_pad1,
 /turf/simulated/floor/exoplanet/desert,
 /area/space)
 
@@ -3193,7 +3197,7 @@ a
 a
 a
 a
-a
+s
 a
 a
 a
@@ -5197,14 +5201,14 @@ a
 a
 a
 a
-a
-a
-e
+Z
 a
 e
+a
 e
 e
-Q
+e
+e
 e
 e
 e

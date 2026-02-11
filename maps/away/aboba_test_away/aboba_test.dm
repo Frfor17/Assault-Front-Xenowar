@@ -1,7 +1,8 @@
 /obj/overmap/visitable/sector/aboba_test
 	name = "aboba_test"
 	desc = "its test site insane"
-	icon_state = "object"
+	icon_state = "event"
+	place_near_main = 1
 
 /datum/map_template/ruin/away_site/aboba_test
 	name = "aboba_test"
@@ -10,3 +11,7 @@
 	suffixes = list("aboba_test_away/warfare_map_attempt1.dmm")
 	spawn_cost = 0
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
+
+/obj/shuttle_landmark/aboba_pad1
+	name = "Aboba test 1"
+	landmark_tag = "aboba_pad1"
