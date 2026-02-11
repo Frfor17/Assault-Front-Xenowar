@@ -23,6 +23,7 @@
 	#include "../away/voxship/voxship.dm"
 	#include "../away/abandoned_hotel/abandoned_hotel.dm"
 	#include "../away/salvage_shuttle/salvage_shuttle.dm"
+	#include "../away/aboba_test_away/aboba_test.dm"
 
 	#define using_map_DATUM /datum/map/away_sites_testing
 
