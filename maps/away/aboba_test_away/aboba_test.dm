@@ -1,6 +1,6 @@
 /obj/overmap/visitable/sector/aboba_test
-	name = "aboba_test"
-	desc = "its test site insane"
+	name = "Planet of War"
+	desc = "Planet, where war will be"
 	icon_state = "event"
 	place_near_main = 1
 
@@ -17,5 +17,5 @@
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /obj/shuttle_landmark/aboba_1_landmakr
-	name = "adboba test landmakr"
+	name = "War landing zone"
 	landmark_tag = "aboba_test_1"
