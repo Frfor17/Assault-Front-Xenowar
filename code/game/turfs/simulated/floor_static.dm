@@ -49,3 +49,15 @@
 		return
 	if(severity == EX_ACT_DEVASTATING)
 		ChangeTurf(get_base_turf_by_area(src))
+
+/turf/simulated/floor/fixed/bloodbar
+	name = "Strange red-metall flooring"
+	desc = "You can see something under it.. Its pulsating..."
+	icon = 'icons/turf/flooring/alium.dmi'
+	icon_state = "jaggy"
+
+/turf/simulated/floor/fixed/bloodbar_pulse
+	name = "Pulsating Strange red-metall flooring"
+	desc = "You can see something under it.. Its pulsating... With bloody-red light..."
+	icon = 'icons/turf/flooring/alium.dmi'
+	icon_state = "jaggy"
