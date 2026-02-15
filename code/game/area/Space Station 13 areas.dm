@@ -303,3 +303,16 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 					sound_to(H, S)
 
 	spawn(60) .()
+
+
+////////////
+//PLANETS//
+////////////
+// planets areas only, for special planets, for example, if you wanna make your own planet, you can use this
+
+/area/war_planet
+	name = "War Planet"
+	icon_state = "away"
+
+	has_gravity = 1
+	planetary_surface = TRUE
