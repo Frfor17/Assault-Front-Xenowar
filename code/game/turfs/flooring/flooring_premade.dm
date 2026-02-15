@@ -194,6 +194,18 @@
 	icon_state = "steel"
 	initial_flooring = /singleton/flooring/tiling
 
+/turf/simulated/floor/tiled/bloodbar
+	name = "Strange red-metall flooring"
+	desc = "You can see something under it.. Its pulsating..."
+	icon = 'icons/turf/flooring/assault_front.dmi'
+	icon_state = "bloodbar_pulse"
+
+/turf/simulated/floor/tiled/bloodbar_pulse
+	name = "Pulsating Strange red-metall flooring"
+	desc = "You can see something under it.. Its pulsating... With bloody-red light..."
+	icon = 'icons/turf/flooring/assault_front.dmi'
+	icon_state = "bloodbar_non_pulse"
+
 /turf/simulated/floor/tiled/dark
 	name = "dark floor"
 	icon_state = "dark"
