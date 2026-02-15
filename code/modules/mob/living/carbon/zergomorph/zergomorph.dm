@@ -20,3 +20,18 @@
 /mob/living/carbon/zergomorph/mine
 	name = "Zergomoprh Mine"
 	icon_state = "mine"
+
+/mob/living/carbon/zergomorph/verb/Plant_Weed()
+	set name = "Plant Grass"
+	set category = "Zerg Abilities"
+	set desc = "Spawn grass on turf"
+
+	var/turf/T = get_turf(src)
+	T.ChangeTurf(/turf/simulated/floor/zergomorph_weed)
+	to_chat(src, "<span class='notice'>Planted Weed!</span>")
+
+/turf/simulated/floor/zergomorph_weed
+	name = "Strange Meat Weed"
+	desc = "Damn what teh fuck is that meat-like strange floor or what the fuck is that? Some kind of weed?"
+	icon = 'icons/mob/tyranids_port.dmi'
+	icon_state = "weednode"
