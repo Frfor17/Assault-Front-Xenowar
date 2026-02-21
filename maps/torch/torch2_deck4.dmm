@@ -78,6 +78,7 @@
 /obj/floor_decal/spline/fancy/wood/cee{
 	dir = 4
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/lino,
 /area/command/captainmess)
 "aq" = (
@@ -107,6 +108,7 @@
 	id_tag = "do_office";
 	name = "privacy shutters"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "av" = (
@@ -169,6 +171,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/dark,
 /area/security/hangcheck)
 "aD" = (
@@ -431,6 +434,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/fourthdeck/aft)
 "bC" = (
@@ -917,6 +921,7 @@
 	name = "Escape Pod Two"
 	},
 /obj/machinery/shield_diffuser,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "dg" = (
@@ -1295,6 +1300,14 @@
 "er" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/fourthdeck/forestarboard)
+"es" = (
+/obj/machinery/door/airlock/mining{
+	name = "Hangar Catwalk Access"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/barricade,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/quartermaster/hangar/catwalks)
 "et" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
@@ -1455,6 +1468,7 @@
 	name = "Head"
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/head/deck4)
 "eX" = (
@@ -1710,6 +1724,7 @@
 /obj/machinery/door/airlock/highsecurity{
 	name = "Server Room"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/tcommsat/computer)
 "fK" = (
@@ -2138,6 +2153,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/captainmess)
 "hm" = (
@@ -2285,6 +2301,7 @@
 /area/quartermaster/hangar/catwalks)
 "hE" = (
 /obj/wallframe_spawn/no_grille,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "hO" = (
@@ -3162,6 +3179,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/command/pathfinder)
 "lh" = (
@@ -3203,6 +3221,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/head/deck4)
 "lk" = (
@@ -3798,6 +3817,7 @@
 	name = "E.V.A. Storage"
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/eva)
 "nk" = (
@@ -3838,6 +3858,7 @@
 /obj/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "pathfinder_office"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/command/pathfinder)
 "no" = (
@@ -4036,6 +4057,7 @@
 /obj/machinery/door/airlock/civilian{
 	name = "Emergency Storage"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "od" = (
@@ -4162,6 +4184,7 @@
 /area/teleporter/fourthdeck)
 "oB" = (
 /obj/wallframe_spawn/reinforced,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "oC" = (
@@ -4171,6 +4194,7 @@
 /obj/machinery/door/airlock/glass/civilian{
 	name = "Primary Tool Storage"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/storage/primary)
 "oD" = (
@@ -4375,6 +4399,25 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"pE" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/crystal{
+	name = "Adherent Maintenance"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/barricade,
+/turf/simulated/floor/crystal,
+/area/crew_quarters/adherent)
 "pG" = (
 /obj/wallframe_spawn/reinforced/hull,
 /obj/machinery/door/firedoor,
@@ -4600,6 +4643,7 @@
 "qr" = (
 /obj/wallframe_spawn/no_grille,
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/crew_quarters/laundry)
 "qv" = (
@@ -5721,6 +5765,7 @@
 	dir = 4
 	},
 /obj/wallframe_spawn/no_grille,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "ud" = (
@@ -5893,6 +5938,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/lounge)
 "uy" = (
@@ -6326,11 +6372,13 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/hangcheck)
 "vJ" = (
 /obj/machinery/door/firedoor,
 /obj/wallframe_spawn/reinforced/no_grille,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "vK" = (
@@ -6518,6 +6566,7 @@
 /obj/machinery/door/airlock/glass/civilian{
 	name = "Primary Tool Storage"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/storage/primary)
 "wF" = (
@@ -6849,6 +6898,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/eva)
 "xR" = (
@@ -7716,6 +7766,7 @@
 /obj/floor_decal/techfloor/corner{
 	dir = 8
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/storage/auxillary/port)
 "AJ" = (
@@ -8504,6 +8555,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/laundry)
 "Eg" = (
@@ -9195,6 +9247,14 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
+"Gs" = (
+/obj/machinery/door/firedoor,
+/obj/wallframe_spawn/reinforced/polarized/no_grille{
+	id = "offmess_windows"
+	},
+/obj/structure/barricade,
+/turf/simulated/floor/plating,
+/area/command/captainmess)
 "Gt" = (
 /obj/shuttle_landmark/scavver_gantry/torch,
 /turf/space,
@@ -9225,6 +9285,7 @@
 	name = "Escape Pod Four"
 	},
 /obj/machinery/shield_diffuser,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "Gw" = (
@@ -9467,11 +9528,13 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/lounge)
 "HE" = (
 /obj/wallframe_spawn/reinforced/no_grille,
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "HF" = (
@@ -9889,6 +9952,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
+"Jf" = (
+/obj/machinery/door/firedoor,
+/obj/wallframe_spawn/reinforced/no_grille,
+/obj/structure/barricade,
+/turf/simulated/floor/plating,
+/area/quartermaster/hangar/catwalks)
 "Jh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -10355,6 +10424,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/sorting)
 "KF" = (
@@ -10387,6 +10457,7 @@
 	icon_state = "0-4"
 	},
 /obj/wallframe_spawn/reinforced,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "KI" = (
@@ -10484,6 +10555,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/deckchief)
 "La" = (
@@ -11267,6 +11339,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "Nn" = (
@@ -11457,6 +11530,7 @@
 /obj/structure/cable/green,
 /obj/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "NQ" = (
@@ -11602,6 +11676,7 @@
 	},
 /obj/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "Ol" = (
@@ -11793,6 +11868,7 @@
 	pixel_y = -4
 	},
 /obj/wallframe_spawn/no_grille,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "OV" = (
@@ -11827,6 +11903,7 @@
 	name = "privacy shutters"
 	},
 /obj/wallframe_spawn/reinforced,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/quartermaster/deckchief)
 "Pc" = (
@@ -12415,6 +12492,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/storage/upper)
 "QJ" = (
@@ -12676,6 +12754,7 @@
 	pixel_y = -4
 	},
 /obj/wallframe_spawn/no_grille,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "RA" = (
@@ -12743,6 +12822,7 @@
 	name = "Cargo Maintenance"
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/storage/upper)
 "RI" = (
@@ -13123,6 +13203,7 @@
 	},
 /obj/structure/cable/green,
 /obj/wallframe_spawn/reinforced,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "SE" = (
@@ -13149,6 +13230,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/airlock/glass/civilian,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/fourthdeck/aft)
 "SG" = (
@@ -13266,6 +13348,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/office)
 "ST" = (
@@ -13664,6 +13747,7 @@
 	id = "pathfinder_office"
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/command/pathfinder)
 "TW" = (
@@ -13822,6 +13906,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/lounge)
 "Uy" = (
@@ -14749,6 +14834,7 @@
 	pixel_y = -4
 	},
 /obj/wallframe_spawn/no_grille,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/storage/primary)
 "Xl" = (
@@ -15012,6 +15098,7 @@
 	},
 /obj/structure/cable/green,
 /obj/wallframe_spawn/reinforced,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/security/hangcheck)
 "XT" = (
@@ -15120,6 +15207,7 @@
 "Yd" = (
 /obj/machinery/door/firedoor,
 /obj/wallframe_spawn/reinforced/no_grille,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/crew_quarters/lounge)
 "Ye" = (
@@ -15209,6 +15297,7 @@
 	id_tag = "escape_pod_6_berth_hatch";
 	name = "Escape Pod One"
 	},
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "Yx" = (
@@ -15668,6 +15757,7 @@
 	name = "Escape Pod Three"
 	},
 /obj/machinery/shield_diffuser,
+/obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "ZB" = (
@@ -15685,6 +15775,7 @@
 /obj/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/civilian,
+/obj/structure/barricade,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/fourthdeck/aft)
 "ZE" = (
@@ -32331,9 +32422,9 @@ TT
 TT
 fl
 fl
-hD
-NR
-hD
+Jf
+es
+Jf
 le
 iI
 wS
@@ -33536,7 +33627,7 @@ Wx
 Wx
 Xg
 dS
-jn
+Gs
 WI
 Pn
 wn
@@ -33940,7 +34031,7 @@ gs
 XG
 hn
 dS
-jn
+Gs
 WI
 Cm
 wn
@@ -36777,7 +36868,7 @@ PJ
 PJ
 hD
 NR
-hD
+Jf
 we
 Xn
 Xn
@@ -40412,7 +40503,7 @@ Xn
 QW
 QW
 Mo
-tk
+pE
 Mo
 QW
 QW

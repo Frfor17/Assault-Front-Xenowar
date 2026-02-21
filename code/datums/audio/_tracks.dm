@@ -53,7 +53,7 @@
 
 /singleton/audio/track/df_theme
 	display = "Asteroids"
-	source = 'sound/ambience/song_game.ogg'
+	source = 'sound/ambience/vstavay_strana.ogg'
 	title = "Dwarf Fortress Main Theme"
 	author = "Beyond Quality"
 	license = /singleton/license/grandfathered

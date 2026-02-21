@@ -5,14 +5,11 @@
 var/global/list/nuke_disks = list()
 
 /datum/game_mode/nuclear
-	name = "Mercenary"
-	round_description = "A mercenary strike force is approaching!"
-	extended_round_description = "The Company's majority control of phoron in Nyx has marked the \
-		station to be a highly valuable target for many competing organizations and individuals. Being a \
-		colony of sizable population and considerable wealth causes it to often be the target of various \
-		attempts of robbery, fraud and other malicious actions."
-	config_tag = "mercenary"
-	required_players = 15
+	name = "Assault Warfare"
+	round_description = "WAR IS COMING"
+	extended_round_description = "its coming"
+	config_tag = "assault_warfare"
+	required_players = 0
 	required_enemies = 3
 	end_on_antag_death = FALSE
 	var/nuke_off_station = 0 //Used for tracking if the syndies actually haul the nuke to the station

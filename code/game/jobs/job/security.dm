@@ -52,7 +52,7 @@
 	outfit_type = /singleton/hierarchy/outfit/job/security/detective
 
 /datum/job/officer
-	title = "Security Officer"
+	title = "Imperial Guardsman"
 	department = "Security"
 	department_flag = SEC
 

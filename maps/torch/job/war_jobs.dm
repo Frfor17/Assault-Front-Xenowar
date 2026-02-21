@@ -1,7 +1,8 @@
 /datum/job/soldier
-	title = "Soldier"
-	total_positions = 4
-	spawn_positions = 4
+	title = "VDV Private(FOR MY RUSSIAN FRIENDS)"
+	total_positions = 10
+	selection_color = "#036408"
+	spawn_positions = 10
 	supervisors = "the Chief of Security"
 	economic_power = 4
 	minimal_player_age = 7
@@ -42,9 +43,10 @@
 
 /datum/job/merc_pmc
 
-	title = "Mercenary"
-	total_positions = 4
+	title = "American Guardsman(FOR MY ENGLISH FRIENDS)"
+	total_positions = 10
 	spawn_positions = 4
+	selection_color = "#036408"
 	supervisors = "the Chief of Security"
 	economic_power = 4
 	minimal_player_age = 7
@@ -84,7 +86,8 @@
 							 /datum/computer_file/program/camera_monitor)
 
 /datum/job/merc_pmc/merc_pmc_leader
-	title = "Combat Leader"
+	title = "American Guardsman Commisar(ENGLISH LEADER)"
+	selection_color = "#036408"
 
 
 /datum/job/legionnaire
