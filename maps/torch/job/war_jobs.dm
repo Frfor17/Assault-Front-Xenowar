@@ -2,7 +2,7 @@
 	title = "VDV Private(FOR MY RUSSIAN FRIENDS)"
 	total_positions = 10
 	selection_color = "#036408"
-	spawn_positions = 4
+	spawn_positions = 10
 	supervisors = "the Chief of Security"
 	economic_power = 4
 	minimal_player_age = 7

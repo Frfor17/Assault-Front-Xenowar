@@ -20,12 +20,10 @@
 #undef HUMAN_ONLY_JOBS
 
 	allowed_jobs = list(
-		/datum/job/captain, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
-		/datum/job/sea,
+		/datum/job/captain, /datum/job/chief_engineer, /datum/job/hos,
+		/datum/job/sea, /datum/job/officer,
 		/datum/job/nt_pilot,
 		/datum/job/soldier, /datum/job/merc_pmc, /datum/job/merc_pmc/merc_pmc_leader,
-		/datum/job/qm,
-		/datum/job/merchant
 	)
 
 	access_modify_region = alist(
