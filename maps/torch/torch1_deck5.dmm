@@ -16445,6 +16445,11 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/petrov/control)
+"Uc" = (
+/obj/decal/cleanable/blood,
+/obj/structure/red_tank,
+/turf/simulated/floor/plating,
+/area/quartermaster/hangar)
 "Um" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -37215,7 +37220,7 @@ Gq
 fS
 aX
 ee
-St
+Uc
 St
 bi
 bi

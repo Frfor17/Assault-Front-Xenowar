@@ -3633,6 +3633,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/artillery,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "gP" = (
@@ -7526,6 +7527,7 @@
 	dir = 10
 	},
 /obj/decal/cleanable/blood,
+/obj/structure/artillery,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "sh" = (

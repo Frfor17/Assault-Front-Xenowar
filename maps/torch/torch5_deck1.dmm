@@ -7958,6 +7958,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/gold_statue,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
 "ayw" = (
@@ -14648,6 +14649,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/gold_statue,
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/center)
 "bIb" = (
@@ -20823,6 +20825,26 @@
 	},
 /turf/simulated/floor/plating,
 /area/rnd/misc_lab)
+"jZA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/catwalk_plated,
+/obj/decal/cleanable/blood,
+/obj/structure/gold_statue,
+/turf/simulated/floor/plating,
+/area/hallway/primary/firstdeck/center)
 "kab" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white/monotile,
@@ -22687,6 +22709,26 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
+"mrB" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/catwalk_plated,
+/obj/decal/cleanable/blood,
+/obj/structure/gold_statue,
+/turf/simulated/floor/plating,
+/area/hallway/primary/firstdeck/aft)
 "mrW" = (
 /obj/structure/closet/secure_closet/medical_torchsenior,
 /obj/floor_decal/corner/paleblue/mono,
@@ -30807,6 +30849,7 @@
 	dir = 4
 	},
 /obj/catwalk_plated,
+/obj/structure/gold_statue,
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/center)
 "xoo" = (
@@ -46879,7 +46922,7 @@ fDR
 auM
 ruS
 rKo
-oFI
+jZA
 ure
 ceV
 aBx
@@ -56373,7 +56416,7 @@ hgt
 vii
 pWW
 pmz
-nqf
+mrB
 tiz
 ahe
 ahm
