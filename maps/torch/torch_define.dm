@@ -19,10 +19,10 @@
 	station_name  = "\improper 7K-VI Voshod"
 	station_short = "\improper Voshod"
 	dock_name     = "TBD"
-	boss_name     = "Expeditionary Command"
+	boss_name     = "Warfare High-command GENSHTAB"
 	boss_short    = "Command"
-	company_name  = "Sol Central Government"
-	company_short = "SolGov"
+	company_name  = "Empire of Humanity"
+	company_short = "GenShtab"
 
 	map_admin_faxes = list(
 		"Expeditionary Corps Command",

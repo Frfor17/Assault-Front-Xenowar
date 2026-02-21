@@ -5,9 +5,9 @@
 
 /datum/map/torch/get_map_info()
 	. = list()
-	. +=  "You're aboard the " + replacetext("<b>[station_name]</b>", "\improper", "") + ", an Expeditionary Corps starship. Its primary mission is looking for undiscovered sapient alien species, and general exploration along the way."
-	. +=  "The vessel is staffed with a mix of SCG government personnel and hired contractors."
-	. +=  "This area of space is uncharted, away from SCG territory. You might encounter remote outposts or drifting hulks, but no recognized government holds claim on this sector."
+	. +=  "YOU ARE ABOARD " + replacetext("<b>[station_name]</b>", "\improper", "") + ", an MILITARY DESANT SHIP!"
+	. +=  "The vessel is STAFFED WITH SOLDIERS AND COMMANDERS!"
+	. +=  "YOU ARE AT THE MIDDLE OF WARFARE, NEAR HOSTILE HIVE-ZERGOMORPH MEATSHIP AND CHAOS-WARP BASE. Maybe your platoon will survive or you maybe you can capture the TARGETED PLANET, MAY GUNS AND YOUR FAITH HELP YOU, BROTHER!"
 	return jointext(., "<br>")
 
 /datum/map/torch/send_welcome()
