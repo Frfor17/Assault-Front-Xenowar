@@ -5,6 +5,12 @@
 "G" = (
 /turf/simulated/floor/fixed,
 /area/space)
+"L" = (
+/obj/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/fixed,
+/area/space)
 "P" = (
 /turf/simulated/wall/iron,
 /area/space)
@@ -5667,7 +5673,7 @@ a
 a
 P
 G
-G
+L
 G
 P
 a
