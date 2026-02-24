@@ -358,7 +358,7 @@
 	M.add_chemical_effect(CE_PAINKILLER, 10)
 
 /datum/reagent/opiate/ultradol
-	name = "Ultradol"
+	name = "Ultramedol"
 	description = "A military-grade painkiller, for fast stabilization and increasing combat perfomance."
 	taste_description = "determination"
 	color = "#79030b"
