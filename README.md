@@ -1,4 +1,4 @@
-# Baystation
+# Assault Warfare 13
 [Website/Wiki](https://baystation.xyz) &nbsp; &nbsp; [Discord](https://baystation.xyz/discord) &nbsp; &nbsp; [DMDoc](https://dmdoc.baystation.xyz) &nbsp; &nbsp; [Code (here!)](https://baystation.xyz/github)
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3.0-orange.svg)](https://opensource.org/licenses/AGPL-3.0)
@@ -44,3 +44,4 @@ See the **Security Policy** ([/docs/SECURITY.md](/docs/SECURITY.md)) for how to 
 For regular use, see the **Installation Guide** ([/docs/installation.md](/docs/installation.md)) for instructions on obtaining, installing, updating, and running this project.
 
 Some people come here with the aim of starting a closed source Space Station 13 project. That will be challenging - the code you can use for that is antiquated. Please read the License section if you skipped it. If that doesn't deter you, the [last-gpl-commit](https://github.com/Baystation12/Baystation12/releases/tag/last-gpl-commit) tag is where to begin. You will need [BYOND 507](https://www.byond.com/download/build/507/).
+
