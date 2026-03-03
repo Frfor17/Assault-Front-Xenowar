@@ -253,3 +253,11 @@
 	upright = 0
 	anchored = FALSE
 	update_icon()
+
+/*****************************TRENCH SHOVEL********************************/
+
+/obj/item/shovel/trench_shovel
+	name = "ISL-FWK-CS3 Trench Shovel"
+	desc = "These standard ISL-FWK-CS3 model sapper shovels were provided to the regiment by the Forge World of Khvalin under the command of General-Fabricator H.W.A.T.a, who refused to provide the capacity of his forge world and its products unless the authorship of the production was presented in the wording that you are reading, engraved on each piece of product."
+	icon = 'icons/obj/tools/shovels.dmi'
+	icon_state = "trench_shovel"
