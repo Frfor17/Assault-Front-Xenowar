@@ -1,3 +1,6 @@
+#include "warfare_map_areas.dm"
+
+
 /obj/overmap/visitable/sector/aboba_test
 	name = "Planet of War"
 	desc = "Planet, where war will be"
