@@ -26,6 +26,10 @@
 /mob/living/simple_animal/hostile/viscerator,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/war_planet)
+"eO" = (
+/obj/structure/bunker_sc,
+/turf/simulated/floor/exoplanet/desert,
+/area/war_planet)
 "hw" = (
 /obj/random/biggun,
 /obj/structure/table/woodentable/walnut,
@@ -133,6 +137,10 @@
 /obj/structure/barricade,
 /turf/simulated/floor/exoplanet/desert,
 /area/war_planet)
+"En" = (
+/obj/structure/artillery,
+/turf/simulated/floor/exoplanet/grass,
+/area/war_planet)
 "Fu" = (
 /turf/simulated/floor/exoplanet/grass,
 /area/war_planet)
@@ -209,6 +217,10 @@
 "Sh" = (
 /turf/unsimulated/wall,
 /area/space)
+"SB" = (
+/obj/structure/artillery,
+/turf/simulated/floor/exoplanet/desert,
+/area/war_planet)
 "SR" = (
 /mob/living/simple_animal/hostile/meat/horrorminer,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
@@ -2859,7 +2871,7 @@ wA
 wA
 kr
 wA
-wA
+eO
 wA
 Fu
 Fu
@@ -2963,7 +2975,7 @@ kr
 wA
 wA
 Fu
-Fu
+En
 wA
 wA
 wA
@@ -3481,7 +3493,7 @@ wA
 wA
 wA
 wA
-wA
+Pc
 wA
 wA
 wA
@@ -3582,10 +3594,10 @@ wA
 wA
 kr
 wA
-Pc
+eO
 wA
 wA
-wA
+SB
 wA
 wA
 wA

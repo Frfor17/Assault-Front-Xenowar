@@ -5,4 +5,4 @@
 	name = "Bunker"
 	desc = "Some bunker"
 	icon = 'icons/obj/structures/bunker_sc.dmi'
-	icon_state = ""
+	icon_state = "bunker_sc"
