@@ -1,3 +1,6 @@
+#include "warfare_map_areas.dm"
+
+
 /obj/overmap/visitable/sector/aboba_test
 	name = "Planet of War"
 	desc = "Planet, where war will be"
@@ -19,3 +22,5 @@
 /obj/shuttle_landmark/aboba_1_landmakr
 	name = "War landing zone"
 	landmark_tag = "aboba_test_1"
+	base_area = /area/warfare_map/combat_landing_zone
+	base_turf = /turf/simulated/floor/plating
