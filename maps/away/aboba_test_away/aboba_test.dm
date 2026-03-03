@@ -19,3 +19,5 @@
 /obj/shuttle_landmark/aboba_1_landmakr
 	name = "War landing zone"
 	landmark_tag = "aboba_test_1"
+	base_area = /area/warfare_map/combat_landing_zone
+	base_turf = /turf/simulated/floor/plating

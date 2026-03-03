@@ -3492,6 +3492,7 @@
 #include "maps\_map_include.dm"
 #include "maps\_maps.dm"
 #include "maps\away\aboba_test_away\aboba_test.dm"
+#include "maps\away\aboba_test_away\warfare_map_areas.dm"
 #include "maps\away\aboba_test_away\warfare_map_attempt1.dmm"
 #include "maps\progress\map.dm"
 #include "maps\progress\progress.dm"
