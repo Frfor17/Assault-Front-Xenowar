@@ -1039,6 +1039,7 @@
 #include "code\game\objects\items\devices\flashlight.dm"
 #include "code\game\objects\items\devices\geiger.dm"
 #include "code\game\objects\items\devices\gps.dm"
+#include "code\game\objects\items\devices\hacking_device.dm"
 #include "code\game\objects\items\devices\hacktool.dm"
 #include "code\game\objects\items\devices\holowarrant.dm"
 #include "code\game\objects\items\devices\inducer.dm"
