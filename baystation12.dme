@@ -3350,6 +3350,8 @@
 #include "code\modules\turbolift\turbolift_floor.dm"
 #include "code\modules\turbolift\turbolift_map.dm"
 #include "code\modules\turbolift\turbolift_turfs.dm"
+#include "code\modules\venichles\venichle_modular.dm"
+#include "code\modules\venichles\venichle_non_modular.dm"
 #include "code\modules\ventcrawl\ventcrawl.dm"
 #include "code\modules\ventcrawl\ventcrawl_atmospherics.dm"
 #include "code\modules\ventcrawl\ventcrawl_multiz.dm"
