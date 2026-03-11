@@ -57,7 +57,7 @@
 
 /singleton/hierarchy/outfit/job/torch/crew/security/soldier
 	name = OUTFIT_JOB_NAME("Soldier")
-	uniform = /obj/item/clothing/under/solgov/soldier
+	uniform = /obj/item/clothing/under/soviet_soldier
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_types = list(/obj/item/card/id/torch/crew/security)
 	pda_type = /obj/item/modular_computer/pda/security

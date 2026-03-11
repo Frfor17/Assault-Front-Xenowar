@@ -352,8 +352,8 @@
 
 // war
 
-/obj/item/clothing/under/solgov/soldier
-	name = "soldier's uniform"
-	desc = "They Combat Uniform of Soldier"
-	icon_state = "greydressfem_com"
-	worn_state = "greydressfem_com"
+/obj/item/clothing/under/soviet_soldier
+	name = "Soviet soldier's uniform"
+	desc = "The Combat Uniform of Soviet Soldier"
+	icon_state = "soviet"
+	worn_state = "soviet"
