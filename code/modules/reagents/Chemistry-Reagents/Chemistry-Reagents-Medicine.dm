@@ -357,6 +357,12 @@
 	M.druggy = max(M.druggy, 2)
 	M.add_chemical_effect(CE_PAINKILLER, 10)
 
+/datum/reagent/opiate/ultradol
+	name = "Ultramedol"
+	description = "A military-grade painkiller, for fast stabilization and increasing combat perfomance."
+	taste_description = "determination"
+	color = "#79030b"
+
 /* Other medicine */
 
 /datum/reagent/synaptizine
