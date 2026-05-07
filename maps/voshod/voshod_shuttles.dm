@@ -1,18 +1,30 @@
 //Desant
 
-/datum/shuttle/autodock/ferry/desant
+/datum/shuttle/autodock/overmap/desant
 	name = "Desant"
 	warmup_time = 10
 	dock_target = "desant_shuttle_airlock"
-	waypoint_station = "nav_desant_start"
+	waypoint_station = "nav_hangar_desant"
 	waypoint_offsite = "nav_desant_out"
-	logging_home_tag = "nav_desant_start"
+	logging_home_tag = "nav_hangar_desant"
+	current_location = "nav_hangar_desant"
 	// logging_access = access_desant_helm
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 
-/obj/shuttle_landmark/desant/start
-	name = "First Deck"
-	landmark_tag = "nav_desant_start"
+/area/shuttle/desant
+	name = "\improper Desant"
+	icon_state = "shuttlered"
+	base_turf = /turf/simulated/floor/plating
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_HIDE_FROM_HOLOMAP
+	base_turf_special_handling = TRUE
+
+/datum/shuttle/autodock/overmap/desant/New(_name, obj/shuttle_landmark/initial_location)
+	shuttle_area = subtypesof(/area/shuttle/desant)
+	..()
+
+/obj/shuttle_landmark/desant/hangar
+	name = "Desant Hangar"
+	landmark_tag = "nav_hangar_desant"
 	docking_controller = "desant_shuttle_dock_airlock"
 
 /obj/shuttle_landmark/desant/out

@@ -8,10 +8,22 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/voshod_ship_area)
+"c" = (
+/obj/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"d" = (
+/turf/simulated/shuttle/wall,
+/area/shuttle/desant)
 "g" = (
 /mob/living/simple_animal/hostile/bluespace/neutral,
 /turf/simulated/floor/plating,
 /area/voshod_ship_area)
+"h" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/desant)
 "j" = (
 /mob/living/simple_animal/hostile/drake/bluespace,
 /turf/simulated/floor/plating,
@@ -20,16 +32,82 @@
 /mob/living/simple_animal/faithful_hound,
 /turf/simulated/floor/plating,
 /area/voshod_ship_area)
+"o" = (
+/obj/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/plating,
+/area/voshod_ship_area)
+"p" = (
+/obj/machinery/computer/shuttle_control/explore/Desant,
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/desant)
+"t" = (
+/obj/machinery/computer/modular/preset/sensors{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/desant)
+"v" = (
+/obj/floor_decal/industrial/warning/corner{
+	dir = 1;
+	icon_state = "warningcorner"
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "w" = (
 /turf/simulated/floor/plating,
 /area/voshod_ship_area)
 "y" = (
 /turf/simulated/shuttle/wall,
 /area/voshod_ship_area)
+"A" = (
+/obj/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/plating,
+/area/voshod_ship_area)
 "B" = (
 /obj/machinery/computer/ship/helm,
 /turf/simulated/floor/wood/walnut,
 /area/voshod_ship_area)
+"C" = (
+/obj/machinery/computer/ship/helm{
+	dir = 1;
+	req_access = list(list("ACCESS_TORCH_GUP_HELM"))
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/desant)
+"I" = (
+/obj/shuttle_landmark/desant/hangar,
+/turf/simulated/floor/plating,
+/area/voshod_ship_area)
+"L" = (
+/obj/floor_decal/industrial/warning/corner{
+	dir = 4;
+	icon_state = "warningcorner"
+	},
+/turf/simulated/floor/plating,
+/area/voshod_ship_area)
+"N" = (
+/obj/floor_decal/industrial/warning,
+/turf/simulated/floor/plating,
+/area/voshod_ship_area)
+"P" = (
+/obj/shuttle_landmark/desant/out,
+/turf/space,
+/area/space)
+"Q" = (
+/obj/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/space)
+"S" = (
+/obj/machinery/computer/modular/preset/helm{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/desant)
 "T" = (
 /turf/simulated/floor/wood/walnut,
 /area/voshod_ship_area)
@@ -41,6 +119,19 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/walnut,
+/area/voshod_ship_area)
+"X" = (
+/obj/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/voshod_ship_area)
+"Y" = (
+/obj/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/plating,
 /area/voshod_ship_area)
 
 (1,1,1) = {"
@@ -13883,7 +13974,7 @@ w
 w
 w
 w
-T
+X
 W
 w
 w
@@ -15701,7 +15792,7 @@ w
 w
 w
 w
-w
+I
 w
 w
 w
@@ -16546,7 +16637,7 @@ a
 a
 a
 a
-a
+P
 a
 a
 a
@@ -16911,13 +17002,13 @@ a
 y
 w
 w
-w
-w
-w
-w
-w
-w
-w
+A
+Y
+Y
+Y
+Y
+Y
+L
 w
 y
 a
@@ -17113,13 +17204,13 @@ a
 y
 w
 w
-w
-w
-w
-w
-w
-w
-w
+N
+d
+d
+h
+d
+d
+o
 w
 y
 a
@@ -17315,13 +17406,13 @@ a
 y
 w
 w
-w
-w
-w
-w
-w
-w
-w
+N
+d
+h
+h
+p
+d
+o
 w
 y
 a
@@ -17517,13 +17608,13 @@ a
 y
 w
 w
-w
-w
-w
-w
-w
-w
-w
+N
+d
+C
+h
+h
+d
+o
 w
 y
 a
@@ -17719,13 +17810,13 @@ a
 y
 w
 w
-w
-w
-w
-w
-w
-w
-w
+N
+d
+h
+S
+t
+d
+o
 w
 y
 a
@@ -17921,13 +18012,13 @@ a
 y
 w
 w
-w
-w
-w
-w
-w
-w
-w
+N
+d
+d
+d
+d
+d
+o
 w
 y
 a
@@ -18123,13 +18214,13 @@ a
 y
 V
 V
-V
-V
-V
-V
-V
-V
-V
+Q
+c
+c
+c
+c
+c
+v
 V
 y
 a
