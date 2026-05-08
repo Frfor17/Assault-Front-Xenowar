@@ -9,6 +9,22 @@
 	initial_restricted_waypoints = list(
 		"Desant" = list("nav_hangar_desant")  // Шаттл Desant может появляться только в ангаре
 	)
+	known_ships = list(
+		/obj/overmap/visitable/ship/landable/desant
+	)
+
+	initial_generic_waypoints = list(
+		"nav_desant_out"
+	)
+
+/obj/overmap/visitable/ship/landable/desant
+	name = "Desant"
+	desc = "Desant shuttle for VDV Operations!"
+	shuttle = "Desant"
+	vessel_size = SHIP_SIZE_TINY
+	known_ships = list(
+		/obj/overmap/visitable/ship/voshod
+	)
 
 
 /obj/machinery/computer/shuttle_control/explore/Desant
