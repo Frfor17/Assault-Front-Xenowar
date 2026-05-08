@@ -26,7 +26,6 @@
 		/obj/overmap/visitable/ship/voshod
 	)
 
-
 /obj/machinery/computer/shuttle_control/explore/Desant
 	name = "shuttle control console"
 	shuttle_tag = "Desant"
