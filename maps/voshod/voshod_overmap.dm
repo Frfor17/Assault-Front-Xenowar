@@ -17,6 +17,10 @@
 		"nav_desant_out"
 	)
 
+/obj/machinery/computer/ship/helm/voshod
+	name = "Voshod Helm Control"
+	desc = "Primary Navigation Console for the Voshod ship"
+
 /obj/overmap/visitable/ship/landable/desant
 	name = "Desant"
 	desc = "Desant shuttle for VDV Operations!"
